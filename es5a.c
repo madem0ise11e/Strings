@@ -8,7 +8,7 @@ int main () {
 
   printf("Stringa? ");
   gets(a);
-  strncpy(b,a,10)
+  strncpy(b,a,10);
   if (strchr(b, 'A') != NULL)
     printf("Trovato\n");
   else
